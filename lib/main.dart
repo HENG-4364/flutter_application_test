@@ -30,25 +30,18 @@ class _HomeScreenState extends State<HomeScreen> {
           title: const Text("Demo App Flutter"),
         ),
         body: Container(
-          height: 200,
-          color: Colors.blueGrey,
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            // crossAxisAlignment: CrossAxisAlignment.end,
+          width: double.infinity,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
-                width: 100,
                 height: 100,
+                width: 100,
                 color: Colors.red,
               ),
               Container(
-                width: 100,
                 height: 100,
-                color: Colors.pink,
-              ),
-              Container(
                 width: 100,
-                height: 100,
                 color: Colors.green,
               )
             ],
