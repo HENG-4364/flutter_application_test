@@ -30,6 +30,8 @@ class _HomeScreenState extends State<HomeScreen> {
           title: const Text("Demo App Flutter"),
         ),
         body:  Container(     
+          height: 320,
+          color: Colors.blue[200],
           child: Padding(
             padding: const EdgeInsets.all(10),
             child: Column(
@@ -85,7 +87,8 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       Column(
                         children: [
-                          Image.network("https://static.vecteezy.com/system/resources/thumbnails/024/095/208/small/happy-young-man-smiling-free-png.png")
+                          Image.network("https://static.vecteezy.com/system/resources/thumbnails/024/095/208/small/happy-young-man-smiling-free-png.png"),
+
                         ],
                       )
                     ],
