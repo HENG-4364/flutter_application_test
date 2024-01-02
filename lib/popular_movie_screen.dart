@@ -34,7 +34,7 @@ class PopularMovieScreen extends StatelessWidget {
               onPressed: () {},
               icon: Icon(
                 Icons.search,
-                color: Colors.blueGrey,
+                color: Colors.blueGrey,             
               ))
         ],
       ),

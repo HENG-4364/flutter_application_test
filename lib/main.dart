@@ -47,8 +47,8 @@ class _HomeScreenState extends State<HomeScreen> {
     "https://www.gscmovies.com.my/wp-content/uploads/2022/09/LDTM-GSCMPoster-1-ePost-768x1280.jpg",
     "https://lumiere-a.akamaihd.net/v1/images/p_thelittlemermaid_2023_dplus_796_6213577c.jpeg?region=0%2C0%2C540%2C810",
     "https://m.media-amazon.com/images/M/MV5BM2YwMzJjZDgtNmUzOC00NjEyLThjOGMtOTI4YWYxZWQxY2Q1XkEyXkFqcGdeQXVyNTkzMzg3NDM@._V1_.jpg",
-    "https://juksun.com/wp-content/uploads/2023/08/Wish-You-Were-The-One-Movie-Poster.jpg"
-        "https://lumiere-a.akamaihd.net/v1/images/p_disneymovies_avatarthewayofwater_streamingupdate_2096_0908fa1b.jpeg",
+    "https://juksun.com/wp-content/uploads/2023/08/Wish-You-Were-The-One-Movie-Poster.jpg",
+    "https://lumiere-a.akamaihd.net/v1/images/p_disneymovies_avatarthewayofwater_streamingupdate_2096_0908fa1b.jpeg",
     "https://lumiere-a.akamaihd.net/v1/images/p_junglecruise_21740_v2_bb7f0ae4.jpeg",
     "https://www.gscmovies.com.my/wp-content/uploads/2022/09/LDTM-GSCMPoster-1-ePost-768x1280.jpg"
   ];
@@ -60,7 +60,7 @@ class _HomeScreenState extends State<HomeScreen> {
         elevation: 0,
         title: const Center(
           child: Text(
-            "The Movie App",
+            "Movie App",
             style: TextStyle(
               color: Colors.red,
               fontWeight: FontWeight.bold,
@@ -77,7 +77,7 @@ class _HomeScreenState extends State<HomeScreen> {
             },
             child: CircleAvatar(
               backgroundImage: NetworkImage(
-                "https://www.pavilionweb.com/wp-content/uploads/2017/03/man-300x300.png",
+                "https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/2023/04/05/Lisa-BLACKPINK-4269211768.jpg",
               ),
             ),
           ),
